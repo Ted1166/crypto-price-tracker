@@ -1,3 +1,5 @@
+mod test;
+
 use json::{object, JsonValue};
 use std::env;
 use hyper::{Client, Method, Request, Body};
